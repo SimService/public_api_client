@@ -1,0 +1,11 @@
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\TestClient.exe
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\TestClient.pdb
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\ServiceStack.Client.dll
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\ServiceStack.Text.dll
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\ServiceStack.Client.xml
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\bin\Debug\ServiceStack.Text.xml
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\obj\Debug\TestClient.exe
+C:\Users\maov\Documents\GitHub\backend-dotnetmvc\simv3\public_api_client\TestClient\obj\Debug\TestClient.pdb

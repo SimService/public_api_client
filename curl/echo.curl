@@ -1,0 +1,1 @@
+curl -b cookies.txt -c cookies.txt -H "Content-Type: application/json" -X POST -d '{"shout": "my name is slim shady"}' https://api.simonline.dk/echo

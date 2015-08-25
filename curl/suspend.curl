@@ -1,0 +1,1 @@
+curl -b cookies.txt -c cookies.txt -H "Content-Type: application/json" -X POST -d '{"imsi": [238028230050568] }' https://api.simonline.dk/simcard/suspend
