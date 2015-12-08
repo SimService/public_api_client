@@ -58,7 +58,6 @@
     <Compile Include="Api\StatusCode.cs" />
     <Compile Include="Api\StatusCodeObject.cs" />
     <Compile Include="Api\SimcardBasic.cs" />
-    
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimonlineDTO\ActivateSimcard.cs" />
@@ -77,6 +76,8 @@
     <Compile Include="SimonlineDTO\EchoResponse.cs" />
     <Compile Include="SimonlineDTO\SuspendSimcard.cs" />
     <Compile Include="SimonlineDTO\SuspendSimcardResponse.cs" />
+    <Compile Include="SimonlineDTO\TerminateSimcard.cs" />
+    <Compile Include="SimonlineDTO\TerminateSimcardResponse.cs" />
     <Compile Include="SimonlineDTO\UnsuspendSimcard.cs" />
     <Compile Include="SimonlineDTO\UnsuspendSimcardResponse.cs" />
   </ItemGroup>
