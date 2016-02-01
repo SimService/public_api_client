@@ -5,8 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+
 namespace SimonlineDTO
 {
     [DataContract(Namespace = Constants.defaultNamespace)]
@@ -39,6 +38,8 @@ namespace SimonlineDTO
 
         public void AddError(CommonDetail error)
         {
+            if (details == null)
+                details = new List<SimcardDetail>();
             details.Add(new SimcardDetail() { message = error.message, simple = error.simple });
         }
     }

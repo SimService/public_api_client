@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\DetailedError.cs" />
+    <Compile Include="SimonlineDTO\Common\QueueOverview.cs" />
     <Compile Include="Api\Response.cs" />
     <Compile Include="Api\NetworkStatus.cs" />
     <Compile Include="Api\StatusCode.cs" />
@@ -70,10 +71,16 @@
     <Compile Include="SimonlineDTO\Common\Constants.cs" />
     <Compile Include="SimonlineDTO\Common\DetailedError.cs" />
     <Compile Include="SimonlineDTO\Common\IDTO.cs" />
+    <Compile Include="SimonlineDTO\Common\QueueErrorDetail.cs" />
+    <Compile Include="SimonlineDTO\Common\QueueMeta.cs" />
     <Compile Include="SimonlineDTO\Common\SimcardDetail.cs" />
     <Compile Include="SimonlineDTO\Common\SimcardMeta.cs" />
     <Compile Include="SimonlineDTO\Echo.cs" />
     <Compile Include="SimonlineDTO\EchoResponse.cs" />
+    <Compile Include="SimonlineDTO\Network\Empty.cs" />
+    <Compile Include="SimonlineDTO\Network\EmptyResponse.cs" />
+    <Compile Include="SimonlineDTO\Network\Scheduled.cs" />
+    <Compile Include="SimonlineDTO\Network\ScheduledResponse.cs" />
     <Compile Include="SimonlineDTO\SuspendSimcard.cs" />
     <Compile Include="SimonlineDTO\SuspendSimcardResponse.cs" />
     <Compile Include="SimonlineDTO\TerminateSimcard.cs" />

@@ -9,7 +9,7 @@ namespace Model.Api
 {
     public class SimcardBasic
     {
-        [ApiMember(IsRequired = true, DataType="Unsigned int")]
+        [ApiMember(IsRequired = true, DataType="Unsigned integer")]
         public long imsi { get; set; }
         [DataMember]
         [ApiMember(IsRequired = true, DataType="int")]
@@ -27,6 +27,8 @@ namespace Model.Api
         public string pin1 { get; set; }
         [ApiMember(IsRequired = true)]
         public string pin2 { get; set; }
+        [ApiMember(Description="Last consumption entry using the format, '{csd,sms,voice,data}: {hh:mm:ss,1units,hh:mm:ss,MB/KB/bytes} - network - utc-0 timestamp'  example. 'data: 2,76KB - NetCom GSM/Norway - 02-12-2015 10:54:02'")]
+        public string last_seen_consumption { get; set; }
         [DataMember]
         [ApiMember(Description = "If simcard is queued for a networkstatus change", IsRequired = true)]
         public bool queued { get; set; }

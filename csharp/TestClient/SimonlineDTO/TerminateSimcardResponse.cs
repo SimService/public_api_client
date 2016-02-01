@@ -6,8 +6,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SimonlineDTO
 {
@@ -15,7 +13,7 @@ namespace SimonlineDTO
     public class TerminateSimcardResponse : IDTO
     {
         [DataMember]
-        [ApiMember(Description="Imsi that have been successfully queued for termination", DataType="ARRAY[Unsigned Integer]", ParameterType="body", IsRequired=true)]
+        [ApiMember(Description="Imsi that have been successfully queued for termination", DataType="ARRAY[Unsigned integer]", ParameterType="body", IsRequired=true)]
         public IEnumerable<long> queued { get; set; }
 
         [DataMember]
